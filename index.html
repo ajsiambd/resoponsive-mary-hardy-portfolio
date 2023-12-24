@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <header class="ppp">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title> Mary Hardy </title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <style>
+      @media only screen and (max-width: 600px) {
+        .hide {
+          display: none;
+        }
+        *{
+          padding: 0 5px;
+          width: 100%;
+          
+        }
+        nav {
+         display: none;
+         background-color: bisque;
+        }
+        .about {
+          padding: 0px;
+          background-color: white;
+        }
+
+        .about-info-container {
+          display: grid;
+          grid-template-columns: 1fr;
+        }
+
+        .banner img {
+          display: none;
+        }
+        .skills-container {
+          display: flex;
+          gap: 24px;
+          flex-direction: column;
+        }
+
+        .resume {
+          display: flex;
+          gap: 24px;
+          flex-direction: column;
+        }
+
+        .contact{
+          display: flex;
+          flex-direction: column;
+          padding: 10px;
+        }
+        nav {
+          display: none;
+          flex-direction: column;
+          padding: 10px;
+        }
+        
+        .ppp{
+          background-color: white ;
+          background-image: none;
+        }
+
+        .banner img {
+          display: none;
+        }
+
+        .input {
+          width: 100%;
+        }
+
+        .banner {
+          margin-top: 20px;
+          display: flex;
+          justify-content: center;
+          align-items: flex-start;
+        }
+      }
+    </style>
+</head>
+
+<body>
+  <nav >
+    <h2 class="nav-title ">Ma<span class="text-primary">r</span>y</h2>
+    <ul>
+      <li>Portfolio</li>
+      <li>Blogs</li>
+      <li><button class="btn-primary"> Hire Me </button></li>
+    </ul>
+  </nav>
+  <!-- header banner -->
+  <div class="banner">
+    <div>
+      <h3 class="banner-subtitle">Hi, I am</h3>
+      <h1 class="banner-title">Mary Hardy</h1>
+      <p class="banner-description">Shot what able cold new see hold.Friendly as an betrayed formerly he. Morning
+        because as to society behaved moments.</p>
+      <button class="btn-primary">Download cv</button>
+    </div>
+    <img src="images/hardy.png" alt="">
+  </div>
+  </header>
+  <main>
+    <section class="about">
+      <h3 class="section-title"> About Me</h3>
+      <p class="banner-ddescription">I, m a designer & developer with a passion for web design. I enjoy developing
+        simple, clean and slick websites that provide real value to the end user. Thousands of clients have procured
+        exceptional resulfs while working with me. Delivering work within time and budget which meets clients
+        requirements in our mata.</p>
+      <div class="about-info-container">
+        <div class="about-info">
+          <p class="info-title">Name:</p>
+          <p class="info-dexcription">Mary Hardy</p>
+        </div>
+        <div class="about-info">
+          <p class="info-title">Email:</p>
+          <p class="info-dexcription">info@gmail.com</p>
+        </div>
+        <div class="about-info">
+          <p class="info-title">Speciality:</p>
+          <p class="info-dexcription">Web Dev</p>
+        </div>
+        <div class="about-info">
+          <p class="info-title">Location:</p>
+          <p class="info-dexcription"> CA,California</p>
+        </div>
+      </div>
+    </section>
+    <!--  what i do -->
+    <section>
+      <h3 class="what-i-do"> WHAT I DO </h3>
+      <div class="skills-container">
+        <div class="skill">
+          <img src="images/icons/js.png" alt="">
+          <p class="skill-title"> Vanilla Javascript</p>
+          <p class="skill-description">Lorem, ipsum dolor sit amet consecetur adipisicing elit. Fuga pariatur
+            necessitatibus laudantium, ullam eius earum?</p>
+        </div>
+        <div class="skill">
+          <img src="images/icons/react.png" alt="">
+          <p class="skill-title">React</p>
+          <p class="skill-description">Cumque, amet eveniet! Saepe in obcaecati ad autem sapiente alias quos dolore et
+            quam laboriosam.</p>
+        </div>
+        <div class="skill">
+          <img src="images/icons/mongo.png" alt="">
+          <p class="skill-title">Mongodb</p>
+          <p class="skill-description">Architecto quidem natus fuga, impedit consequatur consequuntur quibusdam, enim ab
+            provident, officiis sapiente debitis magnam!</p>
+        </div>
+        <div class="skill">
+          <img src="images/icons/nodejs.png" alt="">
+          <p class="skill-title">Node JS</p>
+          <p class="skill-description">Quae mollitia minus, odio harum ex sapiente reprehenderit suscipit praesentium
+            neque necessitatibus! Debitis, quidem sequi?</p>
+        </div>
+      </div>
+    </section>
+    <!-- Resume Section -->
+    <section class="resume">
+      <h3 class="resume-section-title"> A summary of My Resume </h3>
+      <div class="resume-content">
+        <div>
+          <h3 class="resume-title">My Education</h3>
+          <div class="resume-item">
+            <h4 class="titlw">Master in Computer Engineering</h4>
+            <h5 class="sub-title">Harvard University / 2015 - 2017</h5>
+            <p class="description">List skill/technologies here. You can change the icon above
+              to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+          </div>
+          <hr>
+          <div class="resume-item">
+            <h4 class="titlw">Master in Computer Engineering</h4>
+            <h5 class="sub-title">Harvard University / 2015 - 2017</h5>
+            <p class="description">List skill/technologies here. You can change the icon above
+              to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+          </div>
+          <hr>
+          <div class="resume-item">
+            <h4 class="titlw">Master in Computer Engineering</h4>
+            <h5 class="sub-title">Harvard University / 2015 - 2017</h5>
+            <p class="description">List skill/technologies here. You can change the icon above
+              to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+          </div>
+        </div>
+        <div>
+          <h3 class="resume-title">My Experience</h3>
+          <div class="resume-item">
+            <h4 class="title">Master in Computer Engineering</h4>
+            <h5 class="sub-title">Harvard University / 2015 - 2017</h5>
+            <p class="description">List skill/technologies here. You can change the icon above
+              to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+          </div>
+          <hr>
+          <div class="resume-item">
+            <h4 class="titlw">Master in Computer Engineering</h4>
+            <h5 class="sub-title">Harvard University / 2015 - 2017</h5>
+            <p class="description">List skill/technologies here. You can change the icon above
+              to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+          </div>
+          <hr>
+          <div class="resume-item">
+            <h4 class="titlw">Master in Computer Engineering</h4>
+            <h5 class="sub-title">Harvard University / 2015 - 2017</h5>
+            <p class="description">List skill/technologies here. You can change the icon above
+              to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+          </div>
+        </div>
+      </div>
+      <div class="resume-button">
+        <button class="btn-primary">Download CV</button>
+      </div>
+    </section>
+    <!-- contact section -->
+    <footer>
+      <section class="contact">
+        <div>
+          <h3 class="contact-title"> Let's Connect</h3>
+          <p class="contact-description">
+            Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M ET, Monday
+            through Friday.
+          </p>
+          <a href=""></a>
+          <img src="images/icons/facebook.png" alt="">
+          </a>
+          <a href=""></a>
+          <img src="images/icons/twitter.png" alt="">
+          </a>
+          <a href=""></a>
+          <img src="images/icons/insta.png" alt="">
+          </a>
+        </div>
+        <div class="mm">
+          <h3 class="contact-title">Let's Messasge Me</h3>
+          <form action="">
+            <input type="text" placeholder="Your Name">
+            <input type="email" name="" id="" placeholder="Your Name">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Messasge Here "></textarea>
+            <input class="btn-primary" type="submit" value=" Submit">
+          </form>
+        </div>
+      </section>
+    </footer>
+  </main>
+  <style></style>
+</body>
+
+</html>
