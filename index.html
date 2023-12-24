@@ -8,21 +8,27 @@
     <title> Mary Hardy </title>
     <link rel="stylesheet" href="styles/styles.css">
     <style>
-      @media only screen and (max-width: 640px) {
+      @media only screen and (max-width: 577px) {
         .hide {
           display: none;
         }
         *{
-          padding: 0 5px;
-          width: 100%;
-          
+          padding: 5px;
+          gap: 0;
+          width: 100%;  
+        }
+        .responsive h3 p img {
+          align-items: center;
+        }
+        * img {
+          width: 50px;
+          height: 50px;
         }
         nav {
          display: none;
          background-color: bisque;
         }
         .about {
-          padding: 0px;
           background-color: white;
         }
 
@@ -30,7 +36,7 @@
           display: grid;
           grid-template-columns: 1fr;
         }
-
+        
         .banner img {
           display: none;
         }
@@ -40,12 +46,18 @@
           flex-direction: column;
         }
 
+        .contact img {
+          size: 20px;
+        }
+
         .resume {
           display: flex;
           gap: 24px;
           flex-direction: column;
         }
-
+        .banner img h3 p {
+          margin: 0;
+        }
         .contact{
           display: flex;
           flex-direction: column;
@@ -72,9 +84,6 @@
 
         .banner {
           margin-top: 20px;
-          display: flex;
-          justify-content: center;
-          align-items: flex-start;
         }
       }
     </style>
@@ -128,7 +137,7 @@
       </div>
     </section>
     <!--  what i do -->
-    <section>
+    <section class="responsive">
       <h3 class="what-i-do"> WHAT I DO </h3>
       <div class="skills-container">
         <div class="skill">
